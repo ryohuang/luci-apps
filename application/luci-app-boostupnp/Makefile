@@ -6,12 +6,13 @@
 
 include $(TOPDIR)/rules.mk
 
+PKG_NAME:=luci-app-boostupnp
+
 LUCI_TITLE:=luci-app-boostupnp
 LUCI_DEPENDS:=+miniupnpd
 LUCI_PKGARCH:=all
 PKG_VERSION:=1.0
-PKG_RELEASE:=2
-
+PKG_RELEASE:=6
 
 include $(TOPDIR)/feeds/luci/luci.mk
 
