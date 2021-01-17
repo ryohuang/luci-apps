@@ -1,0 +1,5 @@
+#!/bin/sh
+
+logger boostupnp "uci-default"
+rm -f /tmp/luci-indexcache
+exit 0
