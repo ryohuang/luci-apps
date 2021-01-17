@@ -10,7 +10,7 @@ LUCI_TITLE:=luci-app-boostupnp
 LUCI_DEPENDS:=+miniupnpd
 LUCI_PKGARCH:=all
 PKG_VERSION:=1.0
-PKG_RELEASE:=1
+PKG_RELEASE:=2
 
 
 include $(TOPDIR)/feeds/luci/luci.mk
